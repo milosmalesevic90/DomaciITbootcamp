@@ -1,0 +1,15 @@
+h1 {color: rgb(57, 97, 48);
+     margin: 20px;
+    font-style: oblique;
+font-size: 48px;
+text-align: center;}
+body { background-color:rgb(126, 122, 122);}
+h2 {color: rgb(233, 151, 58);
+
+    border-style: double;
+
+}
+.social-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px; }
