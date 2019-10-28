@@ -13,3 +13,77 @@ h2 {color: rgb(233, 151, 58);
     width: 24px;
     height: 24px;
     margin-right: 5px; }
+    nav a {
+        font-weight : bold;
+        color : rgb(235, 16, 16); 
+        font-size: large;
+    }
+
+    nav {
+        text-align : center;
+        margin-top : 0;
+    }
+     
+    
+     
+    nav ul {
+        list-style-type : none;
+        margin : 0;
+        padding : 0;
+    }
+     
+    nav li {
+        display : inline;
+    }
+     
+    nav a {
+        font-weight : bold;
+        color : rgb(233, 14, 61);
+    }
+     
+    nav hr {
+        width : 300px;
+        margin-right : auto;
+        margin-left : auto;
+        background-color : #63DC90;
+        color : #63DC90;
+        height: 3px;
+        border:3px;}
+
+        .Projectsimages {
+            width: 150px;
+            height: 150px;
+        }
+        #S1 {
+            border-style: groove;
+            background-color: ghostwhite;
+        }
+        #S1 h1 {
+            text-align: left;
+        }
+        #S1 h2 {
+            background-color: green;
+        }
+        #S2 {
+            border-block-end-style: inset;
+            background-color: black;
+        }
+        #S2 h1 {
+            text-align: left;
+            color: cornsilk;
+        }
+        #S2 p {
+            color: white;
+        }
+        #S3 {
+            border-style: solid;
+            background-color: firebrick;
+        }
+        #S3 h1 {
+            text-align: left;
+            color: grey;
+        }
+        footer {
+            text-align: center;
+            color: yellowgreen;
+        }
