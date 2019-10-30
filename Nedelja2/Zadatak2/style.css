@@ -1,0 +1,95 @@
+header{text-decoration-style: solid;
+text-align: center;
+color: rgb(45, 218, 45);
+font-size: 50px; ;}
+body  {background-color: rgb(116, 156, 196);
+background-size: 50%;
+border-radius: 50%; }
+div { text-align: left;
+    margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 100%;
+  padding-top: .1em;
+  padding-right: .25em;
+  width: 6em;
+  text-align: right;
+  
+
+
+}
+input[type=text] {
+   
+    cursor: pointer;
+    background-position-y: center;
+    
+    
+    }
+label {
+     
+    text-align: left;
+    float: left;
+}
+input:active,
+input:focus,
+input:hover,
+textarea:active,
+textarea:focus,
+textarea:hover {
+  background-color: lightyellow;
+  border-color: yellow; }
+
+  #car {
+      font-size: 50px;
+      color: orangered;
+      text-align: left;
+
+  }
+  table {
+      color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+  }
+td, th {
+    border: 2px solid #ccc;
+}
+th {
+    background: #f3f3f3;
+    font-weight: bold;
+}
+td {
+    background: #fafafa;
+    text-align: center;
+}
+tr:nth-child(even) td { background: #F1F1F1; } 
+tr:nth-child(odd) td { background: #FEFEFE; }  
+tr td:hover { background: #666; color: #FFF; }  
+footer {
+    color: yellow;
+    text-align: center;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+
+.cars ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cars {
+    display: inline-block;
+}
+
+.cars a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
