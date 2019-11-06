@@ -1,9 +1,9 @@
 
 function minNumber(a, b, c) {
 
-    if (a < b && a < c) return a;
+    if (a <= b && a <= c) return a;
     if (b < a && b < c) return b;
-    if (c < b && c < a) return c;
+    if (c <= b && c < a) return c;
     else return 'Equal min values of two or more';
 }
 function pizzaPrice(price, r) {
