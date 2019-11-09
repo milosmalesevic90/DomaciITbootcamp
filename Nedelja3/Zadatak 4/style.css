@@ -1,0 +1,14 @@
+div{
+    min-width: 40%;
+    text-align: center;
+
+}
+div.left , div.right {
+    float: left;
+    width:49%;
+}
+
+h1 {
+    text-align: center;
+    
+}
