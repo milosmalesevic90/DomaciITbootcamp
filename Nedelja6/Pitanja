@@ -1,0 +1,31 @@
+Зашто користимо JSON?
+Зашто су модули корисни? +Пример
+Шта је ECMAScript?
+Опишите како функционишу HTTP захтеви и шта је то REST API.
+Која је разлика између == и === ?
+Шта враћа console.log(typeof typeof true);
+Објаснити зашто?
+
+
+
+
+1. Da bi smanjili velicinu podataka koje saljemo putem interneta,a samimi tim i ubrzali ucitavanje app!
+
+2. Zato sto se smanjuje kompleksnost koda,tj vece aplikacije se rastavljaju na manje i postaju razumnije i preglednije!
+
+3. Specifikacija skriptnog jezika!
+
+4. HTTP zahtev inicira prenos podataka nakon što uspostavi TCP/IP vezu s udaljenim veb serverom na određenom portu.
+   Zahtev se sastoji od osnovne HTTP komande (čija je sintaksa propisana standardom i koja se sastoji od naziva komande,
+   imena traženog dokumenta i verzije podržanog HTTP-a) i zaglavlja koje se sastoji od određenog broja redova teksta koji pobliže određuju aspekte zahteva.
+
+  REST API je RESTful API koji koristi jednostavne HTTP zahteve da pristupi podacima WordPress web sajta u JSON formatu i integrisan je u WordPress Core od verzije 4.7.
+  Drugim rečima, to je novi način pristupa podacima u WordPressu koji ne zahteva pristup preko teme, RSS-a ili XML-RPC-a. 
+  Pod terminom “pristup podacima”, ne misli se samo na čitanje podataka, već na čitanje, kreiranje, ažuriranje i brisanje podataka
+   
+5. Sa == se ne poredi tip podatka vec samo vrednos dok se sa === gleda i koji je tip podatka i u tom slucaju string i broj nisu isti!
+
+6. Ako je broj vraca broj, ako je string vraca string,ako je true vraca boolean,ako je ne definisana varijabla vraca "undefined"!
+  
+  Zbog ECMAScript-a!
+  
